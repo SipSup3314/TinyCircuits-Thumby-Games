@@ -37,7 +37,7 @@ pipe1UP.x = pipe1X
 pipe1UP.y = pipe1Y
 pipe1DN = thumby.Sprite(8,40,bitmap2)
 pipe1DN.x = pipe1X
-pipe1DN.y = pipe1Y + 60
+pipe1DN.y = pipe1Y + 56
 pipe1PT = False
 pipe2X = 109
 pipe2Y = random.randint(-37,-20)
@@ -46,7 +46,7 @@ pipe2UP.x = pipe2X
 pipe2UP.y = pipe2Y
 pipe2DN = thumby.Sprite(8,40,bitmap2)
 pipe2DN.x = pipe2X
-pipe2DN.y = pipe2Y + 60
+pipe2DN.y = pipe2Y + 56
 pipe2PT = False
 score = 0
 init = False
@@ -71,7 +71,7 @@ while True:
             pipe1X=72
             pipe1Y = random.randint(-34,-25)
             pipe1UP.y = pipe1Y
-            pipe1DN.y = pipe1Y + 60
+            pipe1DN.y = pipe1Y + 56
             pipe1PT = False
         if pipe1X<6 and not pipe1PT:
             score+=1
@@ -80,7 +80,7 @@ while True:
             pipe2X=72
             pipe2Y = random.randint(-34,-25)
             pipe2UP.y = pipe2Y
-            pipe2DN.y = pipe2Y + 60
+            pipe2DN.y = pipe2Y + 56
             pipe2PT = False
         if pipe2X<6 and not pipe2PT:
             score+=1
